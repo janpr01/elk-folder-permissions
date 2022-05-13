@@ -1,0 +1,51 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Elkjop-folder-permissions",
+    "id": "01a9d938-cd6e-4b9b-8bc1-d31606a42a46",
+    "version": "1.1.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "appServicePrincipalEUCSPOITSS-5051",
+        "scope": "user_impersonation"
+      }
+    ],
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Extension for unique folder permissions."
+      },
+      "longDescription": {
+        "default": "Extension for unique folder permissions."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Elkjop-folder-permissions",
+        "description": "Extension for unique folder permissions.",
+        "id": "2928e2d4-1df7-4a0f-9ae9-7b05200313a9",
+        "version": "1.1.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/Elkjop-folder-permissions.sppkg"
+  }
+}

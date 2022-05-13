@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "folder-permissions",
+    "libraryId": "01a9d938-cd6e-4b9b-8bc1-d31606a42a46",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "folder-permissions",
+    "solutionShortDescription": "folder-permissions description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}

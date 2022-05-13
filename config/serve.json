@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://elkjopnordic.sharepoint.com/sites/Jankotest/Shared%20Documents/Forms/AllItems.aspx",
+      "customActions": {
+        "414a5b3b-4b04-4a11-ac48-07962ac1e330": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "folderPermissions": {
+      "pageUrl": "https://elkjopnordic.sharepoint.com/sites/Jankotest/Shared%20Documents/Forms/AllItems.aspx",
+      "customActions": {
+        "414a5b3b-4b04-4a11-ac48-07962ac1e330": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+  
+    "id": "414a5b3b-4b04-4a11-ac48-07962ac1e330",
+    "alias": "FolderPermsCommandSet",
+    "componentType": "Extension",
+    "extensionType": "ListViewCommandSet",
+  
+    // The "*" signifies that the version should be taken from the package.json
+    "version": "*",
+    "manifestVersion": 2,
+  
+    // If true, the component can only be installed on sites where Custom Script is allowed.
+    // Components that allow authors to embed arbitrary script code should set this to true.
+    // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+    "requiresCustomScript": false,
+  
+    "items": {
+      "COMMAND_1": {
+        "title": { "default": "Folder Perms" },
+        "iconImageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHpSURBVHhe7dnBUoMwFEZh60y77MP1QXk4dupCmwFmOhlLbkIufwjnW2hd2JZ7CMH6AQAAAAAAAACAv8v8vcz98Ts/8jMO295j4/IPbo+hxzqO8Dl/t7hJhh+oXncH1jMrDP9rfqzT4UqwHVBLZ2BnEdIH0+Ly7yhCzh7Qjo72hGMGCDqJsL6UO777qGrDJZEAtWXGOO4lqFXTSXudfkgjgIf74/v51RSBAF6mCEkE8GTYQwkgRgAxAnhLXIYIIFbnD7EOPyY2qTAfVoAYAcQIIEYAMQKIEUCMAGIEECOAGAHECCBGADECiBFAjABbVPgYnv8HeFlml5gNAcS4BIkRQIwAYgQQYxMuFc+mcAYEyOEwDwJYWOcQM8yFPSCldPiB4XcJsGbL8BeJ5yDAOzWGv1h5LgL8p+bwF2+ekwBi3AXFLMf87ngLfpcVkGvtZCs4EQmQwzLgzAgEeOWx+cai1yCAGAHECCBGALH1HXuPTclbzl3JXsf78p76DxCkIqiO8/m+0mdH76tAfHzsAWLnDtDA6k4HyNnEkM22AsbhNj9CZdZL0A8RfOTsASECl6PKtg30CLeoDd+CBuc+ow9xFwRXBBAjgBgBxAggRgAxAogRQIwAYgQQI4AYn27yP+FzYwUEqlUwDpc/30qGJSBGeyoAAAAASUVORK5CYII=",
+        "type": "command"
+      }
+    }
+  }
+  
